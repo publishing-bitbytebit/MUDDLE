@@ -1,3 +1,5 @@
+# File Naming Conventions
+  
 Each artist/author should first add a new directory to the Sandbox folder of their Forked MUDDLE repo with their name. Do not add spaces between name parts. If an artist/author wishes to indicate a multi-word name then please use hyphens, underscores, or camelCase to separate words. So if you want to be called Anonymous Author your folder in the Sandbox could read `AnonymousAuthor`, `anonymousAuthor`, `anonymous_author`, `anonymous_Author`, `anonymous-author`, or `anonymous-Author`.   
   
 The artist/author should then create children directories for each of the pieces of art/writing one wishes to contribute to the sandbox. All child directories and files should follow the same convention of no spaces within the file/folder names. For each version of a piece append `_version` followed by the version number. For example, `cartoon_version1`. If you wish to have more than 9 versions of a piece please number with a starting 0 for the single digit versions. For example, `cartoon_version01`.
