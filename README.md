@@ -4,7 +4,7 @@ Created by Taylor Brown and Rebecca Parker, Digital Humanities Graduate Students
 
 © BitByteBit Publishing 2018 
 
-Interested in MUDDLING? Check out the project Wiki for instructions on how to start your MUDDLE today!
+Interested in MUDDLING? Check out [the project Wiki](https://github.com/taylorcate/MUDDLE/wiki) for instructions on how to start your MUDDLE today!
 
 Follow MUDDLE on [Twitter](https://twitter.com/muddle_mag) and [Instagram](https://www.instagram.com/muddle_mag/) (@muddle_mag) and check out our [Facebook page!](https://www.facebook.com/muddlemag/)
 
