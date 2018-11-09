@@ -1,5 +1,5 @@
 # Anonymous Backpacker  
 
-Artist Bio - To be written.  
-Artist Links - To be determined.  
-Artist Story - Expansive.  
+Creator Bio - To be written.  
+Creator Links - To be determined.  
+Creator Story - Expansive.  
