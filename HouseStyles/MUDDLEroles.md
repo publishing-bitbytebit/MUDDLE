@@ -15,5 +15,5 @@
   * creator recruitment  
   
   ## Forked MUDDLErs  
-  * [customize you|thei}r FORK]()
+  * [customize you|thei}r FORK](https://github.com/taylorcate/MUDDLE/blob/master/HouseStyles/ForkingFun.md)
   * create {and|to} inspire, document {to|and} share  
