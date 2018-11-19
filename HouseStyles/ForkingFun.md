@@ -1,1 +1,14 @@
-# HOW-TO Customize Creator FORKS  
+# A HOW-TO Guide to C{ustomized][reator] FORKS  
+  
+First, *clone MUDDLE*. In the top right corner of the main MUDDLE repo you will see a button to `FORK`.  
+    
+![fork button](https://github.com/taylorcate/MUDDLE/blob/master/PromotionalMaterials/WorkFlow/MUDDLEtoFORK.png)  
+> _At the forefront of c{reat][aptur}ing collaborative art and c{aptur][reat}ing the process of said art - in [m]any iterations - building a community is vital. See all our FORKS here - https://github.com/taylorcate/MUDDLE/network/members_  
+  
+Next, commit to syncing your FORK to our upstream MUDDLE by habituating either the [MUDDLE from Command Line workflow](https://github.com/taylorcate/MUDDLE/wiki/MUDDLE-from-Command-Line) or the [MUDDLE from GitHub Desktop workflow](https://help.github.com/desktop/guides/). While creators are able to contribute files directly to their FORKS via GitHub, the only ways currently available to properly sync up with the main MUDDLE repo is to use either the [GitHub Desktop GUI](https://desktop.github.com/) or command line.  
+ 
+Once you have your FORK all linked to upstream, head into the settings of your forked MUDDLE and add an issues, wiki, and projects board[s] so MUDDLE][edito}rs and the MUDDLE community can directly reach out to you with qu][sugg}estions. Personally workshoping your muddle in your own backyard in turn keeps the upstream MUDDLE backyard available for larger community d{evelopment][iscussion}s.  
+  
+While you are in your FORK's settings, check to be sure your notifications are set to be notified of any activity on your FORK. As others learn how muddling goes, We][They might need to reach out to learn more of your process[es]. You might add other GitHub users if you intend for your FORK to be a collaborative effort beyond the MUDDLE editors' assistance. ¡ALL in growing the neigh{BBoard][borhood! 
+  
+The yolk of [y]our work will need to be created collaboratively - from start to end - so as you move your work from your personal devices into your personally cloned online sandbox and neighBBboard, `@taylorcate` and `@rjp43` will need special collaborative access to help in case there are any big bugs along the way. In settings, you will see an option to add collaborators - go ahead and add us both, please. Upon your invitation to collaborate, we can customize the discussion of process and production in your backyard. Not only does this allow a more focused workshopping space for each individual creator these steps also act as our safety net in keeping the upstream not "too muddled" for new neighbors. ALSO this ensures your "process to production" is fully documented singularly and it will be up to us Editors in moving the b{y][i}t[e]s during production to the mag's community process record as it becomes necessary to represent the processes of those accepted the annual Spring publication.  
