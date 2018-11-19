@@ -3,11 +3,12 @@
 First, *clone MUDDLE*. In the top right corner of the main MUDDLE repo. select the `FORK` button.  
     
 ![fork button](https://github.com/taylorcate/MUDDLE/blob/master/PromotionalMaterials/WorkFlow/MUDDLEtoFORK.png)  
+
 > _At the forefront of c{reat][aptur}ing collaborative art and c{aptur][reat}ing the process of said art - in [m]any iterations - building a community is vital. See all our FORKS here - https://github.com/taylorcate/MUDDLE/network/members_  
 
 ## Setting Up{1,2}Stream
 
-Next, commit to syncing your FORK to our upstream MUDDLE by habituating either the [MUDDLE from Command Line workflow](https://github.com/taylorcate/MUDDLE/wiki/MUDDLE-from-Command-Line) or the [MUDDLE from GitHub Desktop workflow](https://help.github.com/desktop/guides/). While creators are able to contribute files directly to their FORKS via GitHub, the only ways currently available to properly sync up with the main MUDDLE repo is to use either the [GitHub Desktop GUI](https://desktop.github.com/) or command line.  
+Next, commit to syncing your FORK to our upstream MUDDLE by habituating either the [MUDDLE from Command Line workflow](https://github.com/taylorcate/MUDDLE/wiki/MUDDLE-from-Command-Line) or the [MUDDLE from GitHub Desktop workflow](https://help.github.com/desktop/guides/). While creators are able to contribute files directly to their FORKS via GitHub the only ways currently available to properly sync up with the main MUDDLE repo are to use either the [GitHub Desktop GUI](https://desktop.github.com/) or command line.  
 
 ## Initializing Your Backyard and Neigh{BBoard][borhood
  
