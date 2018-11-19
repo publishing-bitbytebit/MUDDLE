@@ -1,6 +1,6 @@
 # A HOW-TO GUIDE: C{ustomized][reator] FORKS  
   
-First, *clone MUDDLE*. In the top right corner of the main MUDDLE repo you will see a button to `FORK`.  
+First, *clone MUDDLE*. In the top right corner of the main MUDDLE repo. select the `FORK` button.  
     
 ![fork button](https://github.com/taylorcate/MUDDLE/blob/master/PromotionalMaterials/WorkFlow/MUDDLEtoFORK.png)  
 > _At the forefront of c{reat][aptur}ing collaborative art and c{aptur][reat}ing the process of said art - in [m]any iterations - building a community is vital. See all our FORKS here - https://github.com/taylorcate/MUDDLE/network/members_  
