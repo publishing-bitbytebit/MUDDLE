@@ -1,4 +1,4 @@
-# A HOW-TO GUIDE - C{ustomized][reator] FORKS  
+# A HOW-TO GUIDE: C{ustomized][reator] FORKS  
   
 First, *clone MUDDLE*. In the top right corner of the main MUDDLE repo you will see a button to `FORK`.  
     
