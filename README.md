@@ -8,6 +8,6 @@ Interested in MUDDLING? Check out [the project Wiki](https://github.com/taylorca
 
 Follow MUDDLE on [Twitter](https://twitter.com/muddle_mag) and [Instagram](https://www.instagram.com/muddle_mag/) (@muddle_mag) and check out our [Facebook page!](https://www.facebook.com/muddlemag/)
 
-We are presenting at [DHCS 2018](http://ctsdh.org/dhcs2018/) on Saturday (Nov 10th, 10:00 AM) all about the joys of MUDDLING! Watch the [MUDDLE with Me trailer](https://www.youtube.com/watch?v=k2xZ_uYxlI4) and find out how you can be a part of a creative revolution. 
+Check out the [MUDDLE Timeline](https://github.com/taylorcate/MUDDLE/wiki) to see where we've presented and what milestones we've surpassed, and watch the [MUDDLE with Me trailer](https://www.youtube.com/watch?v=k2xZ_uYxlI4) to find out how you can be a part of a creative revolution! 
 
 ![The MUDDLE Backyard in Winter. Illustrated by Taylor Brown](https://github.com/taylorcate/MUDDLE/blob/master/PromotionalMaterials/InHouse/Farmhouse/Backyard_Winter2018.png)
