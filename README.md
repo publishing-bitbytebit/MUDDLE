@@ -2,7 +2,7 @@
 The public GitHub repository for MUDDLE: a digital lit-mag devoted to celebrating the messiness of composition. 
 Created by Taylor Brown and Rebecca Parker, Digital Humanities Graduate Students at Loyola University Chicago. 
 
-© BitByteBit Publishing 2018 
+© Publishing BitByteBit 2018 
 
 Interested in MUDDLING? Check out [the project Wiki](https://github.com/taylorcate/MUDDLE/wiki) for instructions on how to start your MUDDLE today!
 
