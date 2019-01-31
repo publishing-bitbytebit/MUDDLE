@@ -1,0 +1,1 @@
+![this is a fridge note that warns users of adult content](https://raw.githubusercontent.com/publishing-bitbytebit/MUDDLE/master/PromotionalMaterials/InHouse/FridgeNotes/LunchBoxNote_NutWarning_002.png)
