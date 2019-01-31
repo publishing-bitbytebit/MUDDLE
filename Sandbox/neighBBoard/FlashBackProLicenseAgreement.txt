@@ -1,0 +1,200 @@
+FlashBack Professional Edition License Agreement
+
+
+FlashBack Professional Edition version 5.35
+Copyright (C) 2002-2018 Blueberry Software Ltd
+All Rights Reserved
+
+END USER LICENSE AGREEMENT AND WARRANTY DISCLAIMER
+
+This is a legally binding contract between you, the end user, and Blueberry Software Ltd.
+
+BLUEBERRY SOFTWARE LTD ("Blueberry" or "LICENSOR") LICENSES THE ENCLOSED SOFTWARE TO YOU ("USER" or "LICENSEE") ONLY UPON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS CONTAINED IN THIS LICENSE AGREEMENT. PLEASE READ THE TERMS CAREFULLY BEFORE OPENING THIS PACKAGE OR INSTALLING THE SOFTWARE, AS OPENING THE PACKAGE OR INSTALLING THE SOFTWARE WILL 
+INDICATE YOUR ASSENT TO THEM.  IF YOU DO NOT AGREE TO THESE TERMS, THEN BLUEBERRY IS UN-WILLING TO LICENSE THE SOFTWARE TO YOU, IN WHICH EVENT YOU SHOULD RETURN THE FULL PRODUCT WITH PROOF OF PURCHASE TO THE LICENSOR OR THE DEALER FROM WHOM IT WAS ACQUIRED WITHIN 30 DAYS OF PURCHASE, AND YOUR MONEY WILL BE REFUNDED.
+	
+
+EVALUATION VERSION:
+
+FlashBack Professional Edition is not free software.  Blueberry grants you the right to use this software for evaluation purposes without charge for a period of 30 days from installation. After this 30-day period, the software will run in a reduced functionality mode.  To continue to operate the software with enhanced functionality after the 30-day period, you will be required to purchase a license key. Details of how to purchase a license are included in the help file, in the section "Buying a license", and at www.bbsoftware.co.uk/bbflashback.aspx.  
+
+The Evaluation version of FlashBack Professional Edition may be freely distributed subject to the terms of this agreement. It may not be distributed in any other form. You may not request donations or payment for copies of the evaluation software that you distribute. You are specifically prohibited from distributing keys obtained from Blueberry Software Ltd.
+
+Movies created by the Evaluation version of FlashBack should not be used by a company or organisation. 
+
+
+
+LICENSE AND WARRANTY:
+
+The software that accompanies this license is the property of Blueberry or its licensors, and is protected by copyright and other intellectual property law. Although Blueberry at all times owns the Software, you will have certain rights to use the Software after your acceptance of this license. Except as may be modified by an addendum which may accompany or be added to this license, your rights and obligations with respect to the use of this Software are as follows:
+
+
+1.	FlashBack is licensed per-computer. You may only allow the specified number of computers to use the Software and documentation, as indicated as "Quantity" or "Number of Licenses" on the invoice, quotation or electronic confirmation issued by Blueberry. If you have purchased a site license, please see the section below. 
+
+
+2.	After written notice to Blueberry, you may transfer the Software on a permanent basis to another person or entity, provided that you retain no copies of the Software and the transferee agrees to the terms of this agreement; 
+
+
+You may not:
+
+1.	Rent, lease, distribute, license, or otherwise transfer the Software or its documentation to any other party. Licensee may make a reasonable number of back-up copies for archival purposes only. The Software contains copyrighted material, trade secrets and other proprietary material. If Licensee has the right to duplicate the Software for multiple Users, then Licensee must reproduce on all such copies of the Software the copyright notices and any other proprietary legends that were on the original copy of the Software; or 
+
+2.	Decompile, reverse engineer, disassemble, make any attempt to discover the source code of the Software or otherwise reduce the Software to a human perceivable form, or to modify, network, or create derivative works based upon the Software or the documentation in whole or in part, nor permit any other party to do so. 
+
+3.	Notwithstanding anything herein, if the Software is lawfully acquired outside of the United States within a jurisdiction which is a member of the European Union  subject to the EEC Council Directive 91/250/EEC of May 14, 1991, Licensee agrees that within that jurisdiction it shall not, and shall not allow any party on Licensee's behalf to, attempt to reverse  engineer or decompile the Software into another computer language, except as expressly and specifically provided in the EEC Council Directive 91/250/EEC of May 14, 1991.  Any and all information obtained during such lawful reverse engineering and/or decompiling activities, including but not limited to, the organisation, logic, algorithms and processes of the Software, shall be deemed to be the confidential and proprietary information of Blueberry or its Licensors.  Licensee shall not make copies of the copyrighted Software documentation without the prior written permission of Blueberry provided that for electronic transactions licensee may make one (1) hard copy of such documentation for each User.
+
+
+Site Licenses
+
+If you’ve purchased a site licence from Blueberry, it can be used at the sites and by the employees agreed between the licensed organisation and Blueberry at the time of purchase.
+
+Educational Licences
+
+To qualify for an educational discount or to use an educational licence you must be a "Qualified Educational User." For qualification-related questions, please contact our Sales Department for details of the specific programs that relate to the product that you are purchasing.
+
+
+Business Licensing
+
+Both 'Business' and 'Personal' licences can be purchased for FlashBack. The correspondance you receive from Blueberry containing your licence key will indicate whether the licence is of type 'Business' or 'Personal'. If you have purchased a 'Business licence' from Blueberry, then FlashBack can be used for company or organisation purposes. Otherwise, it may only be used by an individual for personal purposes. 
+
+
+Use of Movies Created by FlashBack
+You have full rights to the movies you create with FlashBack Professional Edition and can use them for commercial purposes.
+
+However, be aware that you are breaking the terms of the licence if: 
+
+Movies created with the trial edition of FlashBack Professional Edition are used by a company or organisation.
+Movies created by FlashBack Professional Edition purchased with a Personal licence are used by a company or organisation 
+
+If we believe that the terms of the licence are being broken in this way, we may withhold support via email.
+
+
+Beta Software
+
+Pre-Release software provided to you for testing purposes, regardless of how labelled, is by default ‘Beta Software’. Your possession and use of Beta Software will be governed by the terms set forth in this section
+
+Grant of License:
+
+Blueberry grants you a limited, personal, non-exclusive, non-transferable license to install and use copy of the Beta Software on one (1) computer residing on your premises, solely for your internal testing on the terms and conditions set forth below. All other rights are reserved to Blueberry. You may not demonstrate or show the Beta Software to third parties without Blueberry’s written permission. You may not use the Beta Software in a live operating environment where it may be relied upon to perform in the same manner as a commercially released product or with data that has not been sufficiently backed up. You may not use the Beta Software for benchmark or performance testing. This license may be terminated by Blueberry at any time upon notice to you and, in any event, will automatically terminate, without notice, upon the release of a commercial version of the Beta Software. Upon the termination of this agreement, You shall cease use of the Beta Software and, upon request, shall promptly return to Blueberry, or certify destruction of, all full or partial copies of the Beta Software and related materials provided by Blueberry.
+
+Feedback: 
+
+You will provide Blueberry with reasonable feedback on the Beta Software’s performance, including but not limited to usability, bug reports and test results. You will review and comment on all documentation supplied. All bug reports, test results and other feedback made by you will be the property of Blueberry and may be used by Blueberry for any purpose it sees fit. Due to the nature of the development work, Blueberry is not certain if errors or discrepancies in the Beta Software may be corrected.
+
+Support: 
+
+Blueberry is not obligated to provide technical or other support for the Beta Software. However, limited technical support (‘Support Services’), if noted in the materials provided to you by Blueberry, may be available. Use of any such Support Services is governed by the Blueberry policies and programs described in ‘online’ documentation or in other Blueberry-provided materials. Any supplemental software code provided to you as part of the Support Services shall be considered part of the Beta Software and subject to the terms and conditions of this agreement. Blueberry may use technical information you provide to Blueberry for Blueberry’s product support, development, and other business purposes. Blueberry will not utilize such technical information in a form that personally identifies you. Support Services may not be available in all countries outside of the United Kingdom and will be discontinued upon release of a commercial version of the Beta Software.
+
+Maintenance: 
+
+Blueberry is not obligated to provide maintenance, technical support, or updates for the Beta Software. Blueberry is not obligated to release a commercial version of the Beta Software or to provide you with a copy of any commercial version that may be released.
+
+Data Protection:
+
+The user is responsible for ensuring that FlashBack Professional Edition is not used in a way which may constitute a breach of personal privacy.
+
+
+Technical Support:
+
+Blueberry provides free standard technical support for all registered users, including access to the web forum and email support. Licensees must register with Blueberry in order to be eligible for standard technical support via electronic mail.
+
+Blueberry provides Premium support for an additional fee, payable annually. Premium support includes priority email support and telephone support.  Site license customers must nominate users to be the contact point with the Blueberry support team.
+
+
+Thirty Day Money Back Guarantee:
+
+If you are the original Licensee of this copy of the Software and are dissatisfied with it for any reason, you may return the complete product, together with your receipt, to Blueberry or an authorised dealer, postage prepaid, for a full refund at any time during the thirty-day period following the delivery to you of the Software.
+
+
+Export Law Assurances:
+
+Licensee agrees and certifies that neither the Software nor any other technical data received from Blueberry, will be exported outside the United States except as authorised and as permitted by the laws and regulations of the United States. If the Software has been rightfully obtained by Licensee outside of the United States, Licensee agrees that Licensee will not re-export the Software nor any other technical data received from Blueberry, nor the direct product thereof, except as permitted by the laws and regulations of the United States and the laws and regulations of the jurisdiction in which Licensee obtained the Software. The Software may not be exported to any of the following: Cuba, Iran, Iraq, Libya, North Korea, Sudan or Syria.
+
+
+Termination:
+
+This License is effective until terminated. Licensee may terminate this License at any time by destroying all copies of the Software and its documentation. This License will terminate immediately without notice from Blueberry if Licensee fails to comply with any provision of this License. Upon termination, Licensee must destroy all copies of the Software and its documentation and cease and desist from any further use of the Software.
+
+Limited Warranty:
+
+Blueberry warrants that the media on which the Software is distributed will be free from defects, and that the Software shall perform substantially as described in its documentation for a period of thirty (30) days from purchase.  Your sole remedy in the event of a breach of this warranty will be that Blueberry will, at its option, replace any defective media returned to Blueberry within the warranty period or refund the money you paid for the Software.  Blueberry does not warrant that the Software will meet your requirements or that operation of the Software will be uninterrupted or that the Software will be error-free.
+
+THE ABOVE WARRANTY IS EXCLUSIVE AND IN LIEU OF ALL OTHER WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS.  YOU MAY HAVE OTHER RIGHTS, WHICH VARY FROM STATE TO STATE.
+
+
+Disclaimer of Damages:
+
+REGARDLESS OF WHETHER ANY REMEDY SET FORTH HEREIN FAILS OF ITS ESSENTIAL PURPOSE, IN NO EVENT WILL BLUEBERRY BE LIABLE TO YOU FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT OR SIMILAR DAMAGES, INCLUDING ANY LOST PROFITS OR LOST DATA ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE EVEN IF BLUEBERRY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN THE CASE OF CONSEQUENTIAL OR INCIDENTAL DAMAGES, BLUEBERRY’S LIABILITY SHALL NOT EXCEED THE PURCHASE PRICE FOR THE SOFTWARE. IN THE CASE OF DIRECT DAMAGES, BLUEBERRY’S LIABILITY SHALL NOT EXCEED TWO (2) TIMES THE PURCHASE PRICE FOR THE SOFTWARE.
+
+SOME STATES DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU. IN NO CASE SHALL BLUEBERRY'S LIABILITY EXCEED TWO (2) TIMES THE PURCHASE PRICE FOR THE SOFTWARE. 
+
+The disclaimers and limitations set forth above will apply regardless of whether you accept the Software.
+
+
+U.S. Government Restricted Rights:
+
+DISTRIBUTION TO THE U.S. GOVERNMENT.  This Software is commercial software developed exclusively at private expense.  Use, duplication, or disclosure by civilian agencies of the U.S. Government shall be in accordance with subparagraphs (c)(1) and (2) of the Commercial Computer Software-Restricted Rights clause at 48 CFR 52.227-19. Use, duplication, or disclosure by Department of Defense agencies is subject solely to the terms of this software licensing agreement pursuant to DFARS 227.7202. Contractor/manufacturer of 
+the Software is Blueberry Software Ltd, Unit T1, The Arch, 48-52 Floodgate Street, Birmingham B5 5SL, United Kingdom.
+
+
+General:
+
+This agreement is governed by, and shall be construed in accordance with, the laws of England and Wales.  This agreement may only be modified by a license addendum which may accompany or be added to this license. Should you have any questions concerning this Agreement, or if you desire to contact Blueberry for any reason, please write to: Blueberry Software Ltd, Unit T1, The Arch, 48-52 Floodgate Street, Birmingham B5 5SL, United Kingdom.
+
+
+
+-------------------------------------------------------
+About The Cisco-Provided Binary of OpenH264 Video Codec
+-------------------------------------------------------
+
+Cisco provides this program under the terms of the BSD license.  
+
+Additionally, this binary is licensed under Cisco’s AVC/H.264 Patent Portfolio License from MPEG LA, at no cost to you, provided that the requirements and conditions shown below in the AVC/H.264 Patent Portfolio sections are met.  
+
+As with all AVC/H.264 codecs, you may also obtain your own patent license from MPEG LA or from the individual patent owners, or proceed at your own risk.  Your rights from Cisco under the BSD license are not affected by this choice.  
+
+For more information on the OpenH264 binary licensing, please see the OpenH264 FAQ found at http://www.openh264.org/faq.html#binary 
+
+A corresponding source code to this binary program is available under the same BSD terms, which can be found at http://www.openh264.org
+
+-----------
+BSD License
+-----------
+
+Copyright © 2014 Cisco Systems, Inc.
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-----------------------------------------
+AVC/H.264 Patent Portfolio License Notice
+-----------------------------------------
+
+The binary form of this Software is distributed by Cisco under the AVC/H.264 Patent Portfolio License from MPEG LA, and is subject to the following requirements, which may or may not be applicable to your use of this software: 
+
+THIS PRODUCT IS LICENSED UNDER THE AVC PATENT PORTFOLIO LICENSE FOR THE PERSONAL USE OF A CONSUMER OR OTHER USES IN WHICH IT DOES NOT RECEIVE REMUNERATION TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE AVC STANDARD (“AVC VIDEO”) AND/OR (ii) DECODE AVC VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PROVIDER LICENSED TO PROVIDE AVC VIDEO.  NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE.  ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE HTTP://WWW.MPEGLA.COM
+
+Accordingly, please be advised that content providers and broadcasters using AVC/H.264 in their service may be required to obtain a separate use license from MPEG LA, referred to as "(b) sublicenses" in the SUMMARY OF AVC/H.264 LICENSE TERMS from MPEG LA found at http://www.openh264.org/mpegla
+
+---------------------------------------------
+AVC/H.264 Patent Portfolio License Conditions
+---------------------------------------------
+
+In addition, the Cisco-provided binary of this Software is licensed under Cisco's license from MPEG LA only if the following conditions are met:
+
+1. The Cisco-provided binary is separately downloaded to an end user’s device, and not integrated into or combined with third party software prior to being downloaded to the end user’s device;
+
+2. The end user must have the ability to control (e.g., to enable, disable, or re-enable) the use of the Cisco-provided binary;
+
+3. Third party software, in the location where end users can control the use of the Cisco-provided binary, must display the following text:
+
+       "OpenH264 Video Codec provided by Cisco Systems, Inc."
+
+4.  Any third-party software that makes use of the Cisco-provided binary must reproduce all of the above text, as well as this last condition, in the EULA and/or in another location where licensing information is to be presented to the end user.  
+ 
