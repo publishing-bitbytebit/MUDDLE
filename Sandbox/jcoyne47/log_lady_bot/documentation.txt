@@ -1,0 +1,59 @@
+Okay, so, let's make a twitter bot!
+
+The idea here comes from the Log Lady intros to Twin Peaks, which are like impenetrably mysterious and great. The first step is to get a source of text. Thankfully, googling it shows me that someone already did most of the work and there's a wiki here: https://twinpeaks.fandom.com/wiki/Log_Lady_introductions
+
+I copy the whole thing and dump it into a text file. I strip out all the extraneous stuff until I have 29 chunks of text, one for each episode of the first two seasons. I'm sort of curious as to what this looks like as text, so let me just stick it into Voyant: https://voyant-tools.org/?corpus=b07c9efc4a05417ffb590e9815d92093
+
+We've got 2,365 words which isn't huge but isn't awful. The set of most common words is:
+things (16); answer (11); know (11); eyes (9); life (9); sadness (9); drawer (8); ill (8); like (8); balance (7); human (7); ideas (7); love (7); pitch (7); say (7); world (7); yes (7); course (6); dog (6); dream (6); heart (6); just (6); log (6); pie (6); pull (6); think (6); words (6); anger (5); behavior (5); death (5)
+
+Now I want to think about what I'm actually wanting to accomplish here. I could probably split most of these into individual tweetchunks themselves. So, like, the first one is:
+
+I carry a log, yes. Is it funny to you? It is not to me. 
+Behind all things are reasons. Reasons can even explain the absurd. Do we have the time to learn the reasons behind human beings' varied behavior? I think not. Some take the time. Are they called detectives? Watch, and see what life teaches.
+
+I like splitting it into 2 there, and not smaller, because there's value in the way it builds on itself. So. Hm. As I read and go through and split these, I'm thinking about how I could actually make a bot that remixes and recombines but preserves the flavor of the text. A lot of the style is the way in which there's this extended dreamlike usage of short strange sentences. In other cases, I might remix a lot of the nouns themselves, but the sentences vary so much in actual structure, that this seems not like the best idea. Instead, what about using each short sentence itself as a building block? A lot of them are like half of a thought but it's unclear what the larger meaning is, so it's easy to just stick totally disconnected sentences together and get something nice and strange.
+
+Okay, so let me break down this text into one document that is just one sentence at a time. (I have this in a text document, and I'm just find&replacing <. > with <.\n> Then I realize I should do the same for <? >. And then I just read through and fix a few that were missed. I wind up with 268.
+
+See the doc: log-full-sentence-dump
+
+...Oh this is going to be super good, I think.
+
+Now the most straightforward thing I could do is to just stick all of these in a randomizer and pick like 5 sentences and tweet that. But I'm going to be a little more in-depth just to try and make this really click.
+
+So let's filter slightly. I toy with the idea of separating and grabbing first and last lines for a higher degree of control, but I'm not sure how useful that is the more I look at things. So, instead I'm just going to differentiate by length. (I just throw them into excel and sort that way, cause that seems like least effort)
+
+So let's split this by character length. Between sentences 90-180 (27), 60-89 (36), 30-59 (112), 1-29 (93).
+
+Twitter allows 280 characters. Let's pretend that's 270 instead because we can then be divisible by 30s.
+
+So, a 270 block can be made up of a 180char block and a 90char block.
+
+That 180char block can be <a sentence> from our 90-180 list. But it can also be two 90char blocks.
+Each 90char block can be... well, any of the following:
+a 60-89 sentence.
+a 30-59 sentence + a 1-29 sentence.
+a 1-29 sentence + a 1-29 sentence + a 1-29 sentence.
+
+What I want to do is to figure out how to make all of this make sense and have the greatest variety of stuff that fits within 270. So to pseudocode... Also note that the 'b' ones are considered to be an imaginary block grouping that I'll define in pseudocode while 's' means 'just take a sentence from that list.' I'm also mirroring some of these because long-sentence-first is structurally different from long-sentence-last. 
+
+tweet = [180b]+[90b] OR [90b]+[180b]
+[180b] = 180s OR [90b]+[90b]
+[90b] = 90s OR [60b]+[30b] OR [30b]+[60s]
+[60b] = 60s OR [30b]+[30b]
+[30b] = 30s
+
+Oh whoops, I did that and it's fine but now I realize that it doesn't include some possibilities, such as 30s + 90s + 30s + 60s. Let me complicate it slightly just to make that a little more fully descriptive, while still trying to avoid being redudant.
+
+tweet = [180b]+[90b] OR [90b]+[180b] OR [30b]+[180b]+[60b] OR [60b]+[180b]+[30b]
+[180b] = 180s OR [90b]+[90b] OR [60b]+[90b]+[30b] OR [30b]+[90b]+[60b]
+[90b] = 90s OR [60b]+[30b] OR [30b]+[60s]
+[60b] = 60s OR [30b]+[30b]
+[30b] = 30s
+
+Um, that's slightly better. Now, some of these are going to be more likely than others to come up. This is good if, say, we pull a lot of 60s, because we have way more of those than 180s, so the variety's better. But I'm not actually sure what block is weighted the highest to come up and don't want to math that out because it makes my head hurt. So I'm probably in a good enough spot to actually test some junk and see what it actually looks like.
+
+Let's talk about the actual twitter bot. First I need to create an account, so I'll just make a new twitter account, and have it registered to my normal email. I'll want to grab a pic and stuff-- oh no, the log lady died in 2015! aw. Also, I didn't realize until this obit that she was the ex-wife of Jack Nance, who played Pete Martell. Okay, I have an extremely basic twitter account, I'll fill in the rest of the stuff later. Oh, it gave me the account TheLogLady2, which kind of sucks. I should pick something better. (The hardest part? finding a good name that's not taken) I'll just use log_lady_bot
+
+Okay, now, to the bot part. I use cheapbotsdonequick.com for this, which runs off of Tracery, a pretty simple way to set things up.
