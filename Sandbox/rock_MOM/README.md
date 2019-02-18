@@ -1,1 +1,3 @@
-## I'm going to cultivate a little preview for the BARRACUDA game here, but we need to house it somewhere else. Just keep swimming!
+## presenting, BARRACUDA: an original desktop game designed and developed by Taylor-Cate Brown 
+
+[![BARRACUDA game start page](https://raw.githubusercontent.com/publishing-bitbytebit/MUDDLE/master/Sandbox/rock_MOM/BARRACUDA_startPage.png)](https://youtu.be/FY3AWrzpA14)
