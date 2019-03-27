@@ -5,20 +5,20 @@ class Particle {
     this.size = random(10,60);
     this.fillColor = varyColor(particleColors[floor(random(particleColors.length))], 35);
   }
-  
-  Particle(float x, float y, float size, color fillColor) {
+
+  Particle(x, y, size, fillColor) {
     this.x = x;
     this.y = y;
     this.size = size;
     this.fillColor = fillColor;
   }
-  
-  void display() {
+
+  display() {
     fill(fillColor);
     ellipse(this.x, this.y, this.size, this.size);
   }
-  
-  void delete() {
+
+  delete() {
     this.size = 0;
     this.x = -100;
     this.y = -100;
