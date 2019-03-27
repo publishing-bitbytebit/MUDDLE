@@ -1,7 +1,4 @@
 class Particle {
-  float x, y, size;
-  color fillColor;
-  
   Particle() {
     this.x = random(width);
     this.y = random(height);
