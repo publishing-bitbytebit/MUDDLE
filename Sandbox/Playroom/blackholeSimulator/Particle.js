@@ -23,30 +23,35 @@ class Particle {
     this.x = -100;
     this.y = -100;
   }
-  
-  float distanceFrom(Particle p) {
-    return sqrt(sq(p.x - this.x) + sq(p.y - this.y));
+
+  distanceFrom(neighborParticle) {
+    return sqrt(
+      sq(neighborParticle.x - this.x, 2)
+      + sq(neighborParticle.y - this.y, 2)
+    );
   }
- 
-  void attractTo(Particle p) {
-    float distance = distanceFrom(p);
-    float directionX = (p.x - x) / distance;
-    float directionY = (p.y - y) / distance;
-    float gravitation = ((G * this.size * p.size) / sq(distance));
-    
-    if(shouldRepel) {
+
+  attractTo(particle) {
+    const distance = this.distanceFrom(particle);
+    const directionX = (particle.x - x) / distance;
+    const directionY = (particle.y - y) / distance;
+    const gravitation = ((G * this.size * particle.size) / sq(distance, 2));
+
+    if (shouldRepel) {
       this.x -= directionX * gravitation;
       this.y -= directionY * gravitation;
     } else {
       this.x += directionX * gravitation;
       this.y += directionY * gravitation;
     }
-    
-    //Blackhole swallow behavior
-    if(p.x-(p.size/3) <= this.x && this.x <= p.x+(p.size/3) &&
-       p.y-(p.size/3) <= this.y && this.y <= p.y+(p.size/3)) {
-         p.size += this.size / 100;
-         this.delete();
+
+    // Blackhole swallow behavior
+    if (
+      particle.x - (particle.size / 3) <= this.x && this.x <= particle.x + (particle.size / 3)
+      && particle.y - (particle.size / 3) <= this.y && this.y <= particle.y + (particle.size / 3)
+    ) {
+      particle.size += this.size / 100;
+      this.delete();
     }
   }
 }
