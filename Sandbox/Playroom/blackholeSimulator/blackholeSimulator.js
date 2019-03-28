@@ -37,12 +37,12 @@ function setup() {
   resetSystem(numOfParticles);
 }
 
-void keyPressed() {
-  if(key == ' ') {
+function keyPressed() {
+  if (keyCode === ' ') {
     resetSystem(numOfParticles);
     mouse.size = initBlackHoleSize;
   }
-  if(key == 'r') {
+  if (keyCode === 'r') {
     shouldRepel = !shouldRepel;
   }
 }
