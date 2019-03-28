@@ -8,22 +8,29 @@
  * r: Toggle repel/attract behavior
  */
 
-// #### Global Variables ####
-Particle[] system;
-Particle mouse;
-color[] particleColors = { 
-  color(37,115,171), //Neptune blue
-  color(171,37,44),  //Mars red
-  color(171,97,37), //Mercury brown
-  color(108,171,37)  //Earth green
-};
-PImage bgImage;
-float initBlackHoleSize = 75;
-int numOfParticles = 750;
-float G = 6.67;
-boolean shouldRepel = false;
+const initBlackHoleSize = 75;
+const numOfParticles = 750;
+const G = 6.67;
 
-void setup() {
+const system = [];
+const particleColors = [
+  color(37, 115, 171), //Neptune blue
+  color(171, 37, 44),  //Mars red
+  color(171, 97, 37), //Mercury brown
+  color(108, 171, 37)  //Earth green
+];
+
+let bgImage;
+let mouse;
+let shouldRepel = false;
+
+function resetSystem(int numOfParticles) {
+  for (let i = 0; i < numOfParticles; i += 1) {
+    system[i] = new Particle();
+  }
+}
+
+function setup() {
   size(1178, 663);
   bgImage = loadImage("stars.jpg");
   mouse = new Particle(width/2, height/2, initBlackHoleSize, color(0));
