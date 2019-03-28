@@ -14,14 +14,8 @@ const numOfParticles = 750;
 const G = 6.67;
 
 const system = [];
-const particleColors = [
-  color(37, 115, 171), //Neptune blue
-  color(171, 37, 44),  //Mars red
-  color(171, 97, 37), //Mercury brown
-  color(108, 171, 37)  //Earth green
-];
+const particleColors = [];
 
-let bgImage;
 let mouse;
 let shouldRepel = false;
 
@@ -90,15 +84,19 @@ class Particle {
   }
 }
 
-function resetSystem(int numOfParticles) {
+function resetSystem(numOfParticles) {
   for (let i = 0; i < numOfParticles; i += 1) {
     system[i] = new Particle();
   }
 }
 
 function setup() {
-  size(1178, 663);
-  bgImage = loadImage("stars.jpg");
+  createCanvas(1178, 663);
+  particleColors[0] = color(37, 115, 171); //Neptune blue
+  particleColors[1] = color(171, 37, 44);  //Mars red
+  particleColors[2] = color(171, 97, 37); //Mercury brown
+  particleColors[3] = color(108, 171, 37);  //Earth green
+
   mouse = new Particle(width / 2, height / 2, initBlackHoleSize, color(0));
   resetSystem(numOfParticles);
 }
