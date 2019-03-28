@@ -20,18 +20,13 @@ let mouse;
 let shouldRepel = false;
 
 class Particle {
-  Particle() {
-    this.x = random(width);
-    this.y = random(height);
-    this.size = random(10,60);
-    this.fillColor = this.varyColor(particleColors[floor(random(particleColors.length))], 35);
-  }
-
-  Particle(x, y, size, fillColor) {
-    this.x = x;
-    this.y = y;
-    this.size = size;
-    this.fillColor = fillColor;
+  constructor(
+    x = random(width),
+    y = random(height),
+    size = random(10, 60),
+    fillColor = this.varyColor(particleColors[floor(random(particleColors.length))], 35)
+  ) {
+    Object.assign(this, { x, y, size, fillColor });
   }
 
   display() {
