@@ -40,11 +40,11 @@ class Particle {
     this.y = -100;
   }
 
-  varyColor(color, deviation) {
-    const red = floor(random(red(color) - deviation, red(color) + deviation));
-    const green = floor(random(green(color) - deviation, green(color) + deviation));
-    const blue = floor(random(blue(color) - deviation, blue(color) - deviation));
-    return color(red, green, blue);
+  varyColor(colorToChange, deviation) {
+    const r = floor(random(red(colorToChange) - deviation, red(colorToChange) + deviation));
+    const g = floor(random(green(colorToChange) - deviation, green(colorToChange) + deviation));
+    const b = floor(random(blue(colorToChange) - deviation, blue(colorToChange) - deviation));
+    return color(r, g, b);
   }
 
   distanceFrom(neighborParticle) {
