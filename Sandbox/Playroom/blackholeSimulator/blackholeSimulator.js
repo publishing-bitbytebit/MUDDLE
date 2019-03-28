@@ -107,14 +107,14 @@ function keyPressed() {
 }
 
 function draw() {
-  background(bgImage);
+  background(0);
 
   mouse.x = mouseX;
   mouse.y = mouseY;
 
   for (let i = 0; i < system.length; i += 1) {
     system[i].display();
-    if (mousePressed) system[i].attractTo(mouse);
+    if (mouseIsPressed) system[i].attractTo(mouse);
   }
 
   mouse.display();
