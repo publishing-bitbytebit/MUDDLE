@@ -1,6 +1,7 @@
 /*
  * Black Hole Simulator
- * @gmoe 30-03-2017
+ * Original Processing sketch: 30-03-2017
+ * p5.js version: 28-03-2019
  *
  * Your mouse is now a black hole!
  * 
@@ -33,7 +34,7 @@ function resetSystem(int numOfParticles) {
 function setup() {
   size(1178, 663);
   bgImage = loadImage("stars.jpg");
-  mouse = new Particle(width/2, height/2, initBlackHoleSize, color(0));
+  mouse = new Particle(width / 2, height / 2, initBlackHoleSize, color(0));
   resetSystem(numOfParticles);
 }
 
@@ -47,34 +48,23 @@ function keyPressed() {
   }
 }
 
-void draw() {
+function draw() {
   background(bgImage);
-  
-  for(Particle p: system) {
-    p.display(); 
-  }
-  
-  mouse.display();
+
   mouse.x = mouseX;
   mouse.y = mouseY;
-  
-  if(mousePressed) {
-    for(int i=0; i < system.length; ++i) {
-      system[i].attractTo(mouse);
-    }
+
+  for (let i = 0; i < system.length; i += 1) {
+    system[i].display();
+    if (mousePressed) system[i].attractTo(mouse);
   }
+
+  mouse.display();
 }
 
-void resetSystem(int numOfParticles) {
-  system = new Particle[numOfParticles];
-  for(int i=0; i < system.length; ++i) {
-    system[i] = new Particle();
-  }
-}
-
-color varyColor(color c, int deviation) {
-  int red = floor(random(red(c)-deviation, red(c)+deviation));
-  int green = floor(random(green(c)-deviation, green(c)+deviation));
-  int blue = floor(random(blue(c)-deviation, blue(c)-deviation));
+function varyColor(color, deviation) {
+  const red = floor(random(red(color) - deviation, red(color) + deviation));
+  const green = floor(random(green(color) - deviation, green(color) + deviation));
+  const blue = floor(random(blue(color) - deviation, blue(color) - deviation));
   return color(red, green, blue);
 }
