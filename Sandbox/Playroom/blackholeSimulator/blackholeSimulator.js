@@ -30,7 +30,7 @@ class Particle {
   }
 
   display() {
-    fill(fillColor);
+    fill(this.fillColor);
     ellipse(this.x, this.y, this.size, this.size);
   }
 
@@ -56,8 +56,8 @@ class Particle {
 
   attractTo(particle) {
     const distance = this.distanceFrom(particle);
-    const directionX = (particle.x - x) / distance;
-    const directionY = (particle.y - y) / distance;
+    const directionX = (particle.x - this.x) / distance;
+    const directionY = (particle.y - this.y) / distance;
     const gravitation = ((G * this.size * particle.size) / sq(distance, 2));
 
     if (shouldRepel) {
