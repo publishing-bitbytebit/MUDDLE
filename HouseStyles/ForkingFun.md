@@ -4,7 +4,7 @@ First, *clone MUDDLE*. In the top right corner of the main MUDDLE repo. select t
     
 ![fork button](https://github.com/taylorcate/MUDDLE/blob/master/PromotionalMaterials/WorkFlow/MUDDLEtoFORK.png)  
 
-> _At the forefront of c{reat][aptur}ing collaborative art and c{aptur][reat}ing the process of said art - in [m]any iterations - building a community is vital. See all our FORKS here - https://github.com/taylorcate/MUDDLE/network/members_  
+> _At the forefront of c{reat][aptur}ing collaborative art and c{aptur][reat}ing the process of said art - in [m]any iterations - building a community is vital. See all our FORKS here - https://github.com/publishing-bitbytebit/MUDDLE/network/members  
 
 ## Setting Up{1,2}Stream
 
@@ -31,7 +31,7 @@ On the main MUDDLE repo. you will notice that every artist identified in the san
 COMING SOON!
 
 ### README too!
-Invite [neighbors](https://github.com/taylorcate/MUDDLE/network/members) to your content by sharing **unique README.md files for each of your works** - _See [Mastering Markdown Resource](https://guides.github.com/features/mastering-markdown/) and [GitHub Basic Writing and Formatting Resource](https://help.github.com/articles/basic-writing-and-formatting-syntax/)_. Let the community know where to find your other versions of self (social media, works published elsewhere, etc.) by creating **a README.md file in your "creator-named" folder in the sandbox with your creator details**. 
+Invite [neighbors](https://github.com/publishing-bitbytebit/MUDDLE/network/members) to your content by sharing **unique README.md files for each of your works** - _See [Mastering Markdown Resource](https://guides.github.com/features/mastering-markdown/) and [GitHub Basic Writing and Formatting Resource](https://help.github.com/articles/basic-writing-and-formatting-syntax/)_. Let the community know where to find your other versions of self (social media, works published elsewhere, etc.) by creating **a README.md file in your "creator-named" folder in the sandbox with your creator details**. 
 
 ### Wiki Tales  
 
