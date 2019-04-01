@@ -96,12 +96,13 @@ function setup() {
   resetSystem(numOfParticles);
 }
 
-function keyPressed() {
-  if (keyCode === ' ') {
+function keyPressed(event) {
+  if (key === ' ') {
+    event.preventDefault(); // Stop screen from scrolling
     resetSystem(numOfParticles);
     mouse.size = initBlackHoleSize;
   }
-  if (keyCode === 'r') {
+  if (key === 'r') {
     shouldRepel = !shouldRepel;
   }
 }
